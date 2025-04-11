@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "meow",
+	"version": "${version}",
+	"name": "Мяу",
+	"description": "Я просто че то делаю хзхзхзхз. Разбираюсь тупа.",
+	"authors": [
+		"mclem0nplay"
+	],
+	"contact": {
+		"sources": "https://github.com/"
+	},
+	"license": "nolicens",
+	"icon": "assets/meow/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.mcl.meow.Meow"
+		],
+		"client": [
+			"com.mcl.meow.MeowClient"
+		]
+	},
+	"mixins": [
+		"meow.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
